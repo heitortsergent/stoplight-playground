@@ -4,7 +4,10 @@ x-stoplight:
 info:
   title: Amazing API
   version: '1.0'
-  description: This is an amazing API!
+  description: |-
+    This is an amazing API!
+
+    I can edit this project now!
 servers:
   - url: 'http://localhost:3000'
 paths:
