@@ -8,6 +8,8 @@ info:
     This is an amazing API!
 
     I can edit this project now!
+
+    New commit message from Git connected account!
 servers:
   - url: 'http://localhost:3000'
 paths:
