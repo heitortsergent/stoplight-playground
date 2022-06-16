@@ -197,3 +197,4 @@ components:
         - lastName
         - email
         - emailVerified
+      x-internal: true
