@@ -198,3 +198,21 @@ components:
         - email
         - emailVerified
       x-internal: true
+    Test:
+      title: Test
+      x-stoplight:
+        id: jk9mbmpcytplt
+      type: object
+      properties:
+        feature-name:
+          type: string
+        feature-flag:
+          type: boolean
+      required:
+        - feature-flag
+      x-examples:
+        example-1:
+          feature-name: string
+          feature-flag: true
+      x-extension-1: null
+      x-extension-2: null
